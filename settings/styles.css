@@ -1,0 +1,44 @@
+body {
+	width: 240px;
+	margin: 0px;
+}
+
+body > header {
+	font-size: 105%;
+	padding: 4px 16px 8px 16px;
+	border-bottom: 1px solid #ddd;
+}
+
+p {
+	margin: 0px;
+}
+
+p.title {
+	font-size: 120%;
+}
+
+body > footer {
+	color: #888;
+	padding: 4px 16px;
+	border-top: 1px solid #ddd;
+}
+
+section {
+	padding: 4px 16px;
+	display: block;
+}
+
+section header {
+	margin-bottom: 2px;
+	display: flex;
+	align-items: center;
+}
+
+section header input {
+	margin: 0px;
+}
+
+section header label {
+	font-size: 115%;
+	margin-left: 8px;
+}

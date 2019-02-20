@@ -1,0 +1,31 @@
+{
+	"manifest_version": 2,
+	
+	"name": "Gateway Fixer",
+	"description": "This extension fixes design issues present in The Theorist Gateway",
+	"version": "1.0",
+	
+	"content_scripts": [
+		{
+			"matches": ["https://www.thetheoristgateway.com/*/key.html*"],
+			"css": ["gatewayPages/keyPage/styles.css"],
+			"js": ["gatewayPages/keyPage/script.js"]
+		}
+	],
+	
+	"browser_action": {
+		"default_icon": "icons/38-01.png",
+		"default_title": "Gateway Fixer settings",
+		"default_popup": "settings/index.html"
+	},
+	
+	"permissions": [
+		"tabs", "https://www.thetheoristgateway.com/*/key.html*",
+		"storage"
+	],
+	
+	"icons": {
+		"48": "icons/96-01.png",
+		"128": "icons/128-01.png"
+	}
+}

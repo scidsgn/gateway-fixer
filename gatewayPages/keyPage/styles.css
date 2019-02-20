@@ -1,0 +1,63 @@
+/* Gateway Fixer */
+/* keyPage.css */
+
+/* Hides the original inputs */
+form.gateway-fixer-key-original-hidden {
+	display: none !important;
+}
+
+/* The container for the new controls */
+div.gateway-fixer-key-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* The key "helper" text */
+div.gateway-fixer-key-helper {
+	font-family: monospace;
+	font-size: 115%;
+}
+
+/* Make the new input look like the default text boxes */
+input.gateway-fixer-key-input {
+	width: calc(100% - 32px);
+	max-width: 600px;
+	background: #000;
+	color: #fff;
+	font-family: monospace;
+	font-size: 115%;
+	margin-bottom: 0.3rem;
+	border: 1px solid #666;
+	text-align: center;
+}
+
+/* The options container */
+div.gateway-fixer-key-options {
+	margin-bottom: 1rem;
+}
+
+/* The options container */
+div.gateway-fixer-key-options label {
+	margin-left: 0.5rem;
+}
+
+/* Make the new button look like the default one */
+button.gateway-fixer-key-submit {
+	background-color: #F0BE37;
+	font-weight: 700;
+	padding: 5px 20px;
+	border-width: 0px 1px 1px 0px;
+	border-color: #000;
+	text-transform: uppercase;
+}
+
+/* Make the new button look like the default one */
+button.gateway-fixer-key-toggle-original {
+	background-color: #aaa;
+	font-weight: 700;
+	padding: 5px 20px;
+	border-width: 0px 1px 1px 0px;
+	border-color: #000;
+	text-transform: uppercase;
+}
